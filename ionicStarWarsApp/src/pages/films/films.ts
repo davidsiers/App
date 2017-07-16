@@ -1,5 +1,10 @@
+import { ApiProvider } from './../../providers/api/api';
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
+import { Observable } from 'rxjs/Observable';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
+
 import { FilmDetailsPage } from '../film-details/film-details';
 
 @Component({
@@ -7,14 +12,13 @@ import { FilmDetailsPage } from '../film-details/film-details';
   templateUrl: 'films.html',
 })
 export class FilmsPage {
+  films: Observable<any>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) { }
-
-  openDetails() {
-    this.navCtrl.push(FilmDetailsPage, {filmId: 2});
+  constructor(public navCtrl: NavController, public apiProvider: ApiProvider) {
+    this.films = this.apiProvider.getFilms();
   }
 
-  goToPlanets() {
-    this.navCtrl.parent.select(2);
+  openDetails(film) {
+    this.navCtrl.push(FilmDetailsPage, {film: film});
   }
 }
