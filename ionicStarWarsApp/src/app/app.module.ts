@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { PeoplePage } from '../pages/people/people';
 import { FilmsPage } from '../pages/films/films';
+import { FilmDetailsPage } from '../pages/film-details/film-details';
 import { PlanetsPage } from '../pages/planets/planets';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -17,6 +18,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     TabsPage,
     PeoplePage,
     FilmsPage,
+    FilmDetailsPage,
     PlanetsPage,
   ],
   imports: [
@@ -29,6 +31,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     TabsPage,
     PeoplePage,
     FilmsPage,
+    FilmDetailsPage,
     PlanetsPage,
   ],
   providers: [

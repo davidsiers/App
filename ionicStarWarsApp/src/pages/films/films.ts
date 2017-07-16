@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the FilmsPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+import { FilmDetailsPage } from '../film-details/film-details';
 
 @Component({
   selector: 'page-films',
@@ -14,11 +8,13 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class FilmsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) { }
+
+  openDetails() {
+    this.navCtrl.push(FilmDetailsPage);
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad FilmsPage');
+  goToPlanets() {
+    this.navCtrl.parent.select(2);
   }
-
 }
