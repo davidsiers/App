@@ -24,4 +24,4 @@ import { MyApp } from './app.component';
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
-export class AppModule {}
+export class AppModule {} 
