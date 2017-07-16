@@ -11,7 +11,7 @@ export class FilmsPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) { }
 
   openDetails() {
-    this.navCtrl.push(FilmDetailsPage);
+    this.navCtrl.push(FilmDetailsPage, {filmId: 2});
   }
 
   goToPlanets() {
