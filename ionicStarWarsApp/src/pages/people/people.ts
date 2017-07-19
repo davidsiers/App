@@ -1,24 +1,24 @@
+import { ApiProvider } from './../../providers/api/api';
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
+import { Observable } from 'rxjs/Observable';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 
-/**
- * Generated class for the PeoplePage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+import { PersonDetailsPage } from '../person-details/person-details';
 
 @Component({
   selector: 'page-people',
   templateUrl: 'people.html',
 })
 export class PeoplePage {
+  people: Observable<any>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public apiProvider: ApiProvider) {
+    this.people = this.apiProvider.getPeople();
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad PeoplePage');
+  openDetails(person) {
+    this.navCtrl.push(PersonDetailsPage, {person: person});
   }
-
 }

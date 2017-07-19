@@ -8,9 +8,14 @@ import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { PeoplePage } from '../pages/people/people';
+import { PersonDetailsPage } from '../pages/person-details/person-details';
+
 import { FilmsPage } from '../pages/films/films';
 import { FilmDetailsPage } from '../pages/film-details/film-details';
+
 import { PlanetsPage } from '../pages/planets/planets';
+import { PlanetDetailsPage } from '../pages/planet-details/planet-details';
+
 import { TabsPage } from '../pages/tabs/tabs';
 
 
@@ -19,9 +24,11 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     TabsPage,
     PeoplePage,
+    PersonDetailsPage,
     FilmsPage,
     FilmDetailsPage,
     PlanetsPage,
+    PlanetDetailsPage,
   ],
   imports: [
     BrowserModule,
@@ -33,9 +40,11 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     TabsPage,
     PeoplePage,
+    PersonDetailsPage,
     FilmsPage,
     FilmDetailsPage,
     PlanetsPage,
+    PlanetDetailsPage,
   ],
   providers: [
     StatusBar,

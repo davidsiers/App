@@ -1,24 +1,23 @@
+import { ApiProvider } from './../../providers/api/api';
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/map';
 
-/**
- * Generated class for the PlanetsPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+import { PlanetDetailsPage } from '../planet-details/planet-details';
 
 @Component({
   selector: 'page-planets',
   templateUrl: 'planets.html',
 })
 export class PlanetsPage {
+  planets: Observable<any>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public apiProvider: ApiProvider) {
+    this.planets = this.apiProvider.getPlanets();
+    }
+
+  openDetails(planet) {
+    this.navCtrl.push(PlanetDetailsPage, {planet: planet});
+    }
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad PlanetsPage');
-  }
-
-}
