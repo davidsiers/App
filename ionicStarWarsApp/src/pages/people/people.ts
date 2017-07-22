@@ -2,7 +2,6 @@ import { ApiProvider } from './../../providers/api/api';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 import { PersonDetailsPage } from '../person-details/person-details';

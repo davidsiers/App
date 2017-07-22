@@ -2,7 +2,6 @@ import { ApiProvider } from './../../providers/api/api';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 import { FilmDetailsPage } from '../film-details/film-details';
@@ -21,4 +20,4 @@ export class FilmsPage {
   openDetails(film) {
     this.navCtrl.push(FilmDetailsPage, {film: film});
   }
-} 
+}
