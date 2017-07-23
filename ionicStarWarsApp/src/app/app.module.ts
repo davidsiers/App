@@ -38,7 +38,7 @@ import { TabsPage } from '../pages/tabs/tabs';
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, { mode: 'md' }),
     IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
