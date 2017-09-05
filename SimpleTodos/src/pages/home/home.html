@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Simple Todos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input type="text" placeholder="Buy Milk" [(ngModel)]="newItem"></ion-input>
+  </ion-item>
+  <button ion-button full (click)="addTodo()">
+      <ion-icon name="add"></ion-icon> Add
+    </button>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of todos; let i = index;">
+      <ion-item>
+        {{ item }}
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button color="secondary" (click)="finishTodo(i)">
+        <ion-icon name="checkmark">
+          Done
+        </ion-icon>
+      </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

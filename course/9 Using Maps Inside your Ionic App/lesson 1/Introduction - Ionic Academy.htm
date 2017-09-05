@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/ -->
+<html class="no-js wf-opensans-n6-active wf-opensans-n7-active wf-lato-n7-active wf-lato-n3-active wf-lato-n4-active wf-lato-i3-active wf-lato-i4-active wf-lato-i7-active wf-opensans-i4-active wf-opensans-i7-active wf-opensans-i8-active wf-opensans-n8-active wf-opensans-n3-active wf-opensans-n4-active wf-ekmukta-n2-active wf-ekmukta-n3-active wf-ekmukta-n5-active wf-ekmukta-n6-active wf-hind-n3-active wf-hind-n4-active wf-hind-n5-active wf-hind-n6-active wf-hind-n7-active wf-opensans-i3-active wf-active gr__ionicacademy_com" lang="en-US" prefix="og: http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+
+	<!-- Always force latest IE rendering engine (even in intranet) -->
+	<!--[if IE ]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+
+	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Introduction - Ionic Academy</title>
+
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://ionicacademy.com/xmlrpc.php">
+
+	<link href="./Introduction - Ionic Academy_files/font-awesome.min.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="./Introduction - Ionic Academy_files/css" media="all"><div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></div><script async="" src="./Introduction - Ionic Academy_files/analytics.js"></script><script src="./Introduction - Ionic Academy_files/618910268300431" async=""></script><script async="" src="./Introduction - Ionic Academy_files/fbevents.js"></script><script rel="abtf">!function(){function a(a,b,c){return a.call.apply(a.bind,arguments)}function b(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);return Array.prototype.unshift.apply(c,d),a.apply(b,c)}}return function(){return a.apply(b,arguments)}}function c(d,e,f){return c=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?a:b,c.apply(null,arguments)}function d(a,b){this.a=a,this.m=b||a,this.c=this.m.document}function e(a,b,c,d){if(b=a.c.createElement(b),c)for(var e in c)c.hasOwnProperty(e)&&("style"==e?b.style.cssText=c[e]:b.setAttribute(e,c[e]));return d&&b.appendChild(a.c.createTextNode(d)),b}function f(a,b,c){a=a.c.getElementsByTagName(b)[0],a||(a=document.documentElement),a.insertBefore(c,a.lastChild)}function g(a){a.parentNode&&a.parentNode.removeChild(a)}function h(a,b,c){b=b||[],c=c||[];for(var d=a.className.split(/\s+/),e=0;e<b.length;e+=1){for(var f=!1,g=0;g<d.length;g+=1)if(b[e]===d[g]){f=!0;break}f||d.push(b[e])}for(b=[],e=0;e<d.length;e+=1){for(f=!1,g=0;g<c.length;g+=1)if(d[e]===c[g]){f=!0;break}f||b.push(d[e])}a.className=b.join(" ").replace(/\s+/g," ").replace(/^\s+|\s+$/,"")}function i(a,b){for(var c=a.className.split(/\s+/),d=0,e=c.length;d<e;d++)if(c[d]==b)return!0;return!1}function j(a){if("string"==typeof a.f)return a.f;var b=a.m.location.protocol;return"about:"==b&&(b=a.a.location.protocol),"https:"==b?"https:":"http:"}function k(a){return a.m.location.hostname||a.a.location.hostname}function l(a,b,c){function d(){j&&g&&h&&(j(i),j=null)}b=e(a,"link",{rel:"stylesheet",href:b,media:"all"});var g=!1,h=!0,i=null,j=c||null;da?(b.onload=function(){g=!0,d()},b.onerror=function(){g=!0,i=Error("Stylesheet failed to load"),d()}):setTimeout(function(){g=!0,d()},0),f(a,"head",b)}function m(a,b,c,d){var f=a.c.getElementsByTagName("head")[0];if(f){var g=e(a,"script",{src:b}),h=!1;return g.onload=g.onreadystatechange=function(){h||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState||(h=!0,c&&c(null),g.onload=g.onreadystatechange=null,"HEAD"==g.parentNode.tagName&&f.removeChild(g))},f.appendChild(g),setTimeout(function(){h||(h=!0,c&&c(Error("Script load timeout")))},d||5e3),g}return null}function n(){this.a=0,this.c=null}function o(a){return a.a++,function(){a.a--,q(a)}}function p(a,b){a.c=b,q(a)}function q(a){0==a.a&&a.c&&(a.c(),a.c=null)}function r(a){this.a=a||"-"}function s(a,b){this.c=a,this.f=4,this.a="n";var c=(b||"n4").match(/^([nio])([1-9])$/i);c&&(this.a=c[1],this.f=parseInt(c[2],10))}function t(a){return w(a)+" "+(a.f+"00")+" 300px "+u(a.c)}function u(a){var b=[];a=a.split(/,\s*/);for(var c=0;c<a.length;c++){var d=a[c].replace(/['"]/g,"");-1!=d.indexOf(" ")||/^\d/.test(d)?b.push("'"+d+"'"):b.push(d)}return b.join(",")}function v(a){return a.a+a.f}function w(a){var b="normal";return"o"===a.a?b="oblique":"i"===a.a&&(b="italic"),b}function x(a){var b=4,c="n",d=null;return a&&((d=a.match(/(normal|oblique|italic)/i))&&d[1]&&(c=d[1].substr(0,1).toLowerCase()),(d=a.match(/([1-9]00|normal|bold)/i))&&d[1]&&(/bold/i.test(d[1])?b=7:/[1-9]00/.test(d[1])&&(b=parseInt(d[1].substr(0,1),10)))),c+b}function y(a,b){this.c=a,this.f=a.m.document.documentElement,this.h=b,this.a=new r("-"),this.j=!1!==b.events,this.g=!1!==b.classes}function z(a){a.g&&h(a.f,[a.a.c("wf","loading")]),B(a,"loading")}function A(a){if(a.g){var b=i(a.f,a.a.c("wf","active")),c=[],d=[a.a.c("wf","loading")];b||c.push(a.a.c("wf","inactive")),h(a.f,c,d)}B(a,"inactive")}function B(a,b,c){a.j&&a.h[b]&&(c?a.h[b](c.c,v(c)):a.h[b]())}function C(){this.c={}}function D(a,b,c){var d,e=[];for(d in b)if(b.hasOwnProperty(d)){var f=a.c[d];f&&e.push(f(b[d],c))}return e}function E(a,b){this.c=a,this.f=b,this.a=e(this.c,"span",{"aria-hidden":"true"},this.f)}function F(a){f(a.c,"body",a.a)}function G(a){return"display:block;position:absolute;top:-9999px;left:-9999px;font-size:300px;width:auto;height:auto;line-height:normal;margin:0;padding:0;font-variant:normal;white-space:nowrap;font-family:"+u(a.c)+";"+("font-style:"+w(a)+";font-weight:"+(a.f+"00")+";")}function H(a,b,c,d,e,f){this.g=a,this.j=b,this.a=d,this.c=c,this.f=e||3e3,this.h=f||void 0}function I(a,b,c,d,e,f,g){this.v=a,this.B=b,this.c=c,this.a=d,this.s=g||"BESbswy",this.f={},this.w=e||3e3,this.u=f||null,this.o=this.j=this.h=this.g=null,this.g=new E(this.c,this.s),this.h=new E(this.c,this.s),this.j=new E(this.c,this.s),this.o=new E(this.c,this.s),a=new s(this.a.c+",serif",v(this.a)),a=G(a),this.g.a.style.cssText=a,a=new s(this.a.c+",sans-serif",v(this.a)),a=G(a),this.h.a.style.cssText=a,a=new s("serif",v(this.a)),a=G(a),this.j.a.style.cssText=a,a=new s("sans-serif",v(this.a)),a=G(a),this.o.a.style.cssText=a,F(this.g),F(this.h),F(this.j),F(this.o)}function J(){if(null===fa){var a=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent);fa=!!a&&(536>parseInt(a[1],10)||536===parseInt(a[1],10)&&11>=parseInt(a[2],10))}return fa}function K(a,b,c){for(var d in ea)if(ea.hasOwnProperty(d)&&b===a.f[ea[d]]&&c===a.f[ea[d]])return!0;return!1}function L(a){var b,c=a.g.a.offsetWidth,d=a.h.a.offsetWidth;(b=c===a.f.serif&&d===a.f["sans-serif"])||(b=J()&&K(a,c,d)),b?ca()-a.A>=a.w?J()&&K(a,c,d)&&(null===a.u||a.u.hasOwnProperty(a.a.c))?N(a,a.v):N(a,a.B):M(a):N(a,a.v)}function M(a){setTimeout(c(function(){L(this)},a),50)}function N(a,b){setTimeout(c(function(){g(this.g.a),g(this.h.a),g(this.j.a),g(this.o.a),b(this.a)},a),0)}function O(a,b,c){this.c=a,this.a=b,this.f=0,this.o=this.j=!1,this.s=c}function P(a){0==--a.f&&a.j&&(a.o?(a=a.a,a.g&&h(a.f,[a.a.c("wf","active")],[a.a.c("wf","loading"),a.a.c("wf","inactive")]),B(a,"active")):A(a.a))}function Q(a){this.j=a,this.a=new C,this.h=0,this.f=this.g=!0}function R(a,b,d,e,f){var g=0==--a.h;(a.f||a.g)&&setTimeout(function(){var a=f||null,i=e||null||{};if(0===d.length&&g)A(b.a);else{b.f+=d.length,g&&(b.j=g);var j,k=[];for(j=0;j<d.length;j++){var l=d[j],m=i[l.c],n=b.a,o=l;if(n.g&&h(n.f,[n.a.c("wf",o.c,v(o).toString(),"loading")]),B(n,"fontloading",o),n=null,null===ga)if(window.FontFace){var o=/Gecko.*Firefox\/(\d+)/.exec(window.navigator.userAgent),p=/OS X.*Version\/10\..*Safari/.exec(window.navigator.userAgent)&&/Apple/.exec(window.navigator.vendor);ga=o?42<parseInt(o[1],10):!p}else ga=!1;n=ga?new H(c(b.g,b),c(b.h,b),b.c,l,b.s,m):new I(c(b.g,b),c(b.h,b),b.c,l,b.s,a,m),k.push(n)}for(j=0;j<k.length;j++)k[j].start()}},0)}function S(a,b,c){var d=[],e=c.timeout;z(b);var d=D(a.a,c,a.c),f=new O(a.c,b,e);for(a.h=d.length,b=0,c=d.length;b<c;b++)d[b].load(function(b,c,d){R(a,f,b,c,d)})}function T(a,b){this.c=a,this.a=b}function U(a,b,c){var d=j(a.c);return a=(a.a.api||"fast.fonts.net/jsapi").replace(/^.*http(s?):(\/\/)?/,""),d+"//"+a+"/"+b+".js"+(c?"?v="+c:"")}function V(a,b){this.c=a,this.a=b}function W(a,b,c){a?this.c=a:this.c=b+ha,this.a=[],this.f=[],this.g=c||""}function X(a,b){for(var c=b.length,d=0;d<c;d++){var e=b[d].split(":");3==e.length&&a.f.push(e.pop());var f="";2==e.length&&""!=e[1]&&(f=":"),a.a.push(e.join(f))}}function Y(a){if(0==a.a.length)throw Error("No fonts to load!");if(-1!=a.c.indexOf("kit="))return a.c;for(var b=a.a.length,c=[],d=0;d<b;d++)c.push(a.a[d].replace(/ /g,"+"));return b=a.c+"?family="+c.join("%7C"),0<a.f.length&&(b+="&subset="+a.f.join(",")),0<a.g.length&&(b+="&text="+encodeURIComponent(a.g)),b}function Z(a){this.f=a,this.a=[],this.c={}}function $(a){for(var b=a.f.length,c=0;c<b;c++){var d=a.f[c].split(":"),e=d[0].replace(/\+/g," "),f=["n4"];if(2<=d.length){var g,h=d[1];if(g=[],h)for(var h=h.split(","),i=h.length,j=0;j<i;j++){var k;if(k=h[j],k.match(/^[\w-]+$/)){var l=la.exec(k.toLowerCase());if(null==l)k="";else{if(k=l[2],k=null==k||""==k?"n":ka[k],l=l[1],null==l||""==l)l="4";else var m=ja[l],l=m?m:isNaN(l)?"4":l.substr(0,1);k=[k,l].join("")}}else k="";k&&g.push(k)}0<g.length&&(f=g),3==d.length&&(d=d[2],g=[],d=d?d.split(","):g,0<d.length&&(d=ia[d[0]])&&(a.c[e]=d))}for(a.c[e]||(d=ia[e])&&(a.c[e]=d),d=0;d<f.length;d+=1)a.a.push(new s(e,f[d]))}}function _(a,b){this.c=a,this.a=b}function aa(a,b){this.c=a,this.a=b}function ba(a,b){this.c=a,this.f=b,this.a=[]}var ca=Date.now||function(){return+new Date},da=!!window.FontFace;r.prototype.c=function(a){for(var b=[],c=0;c<arguments.length;c++)b.push(arguments[c].replace(/[\W_]+/g,"").toLowerCase());return b.join(this.a)},H.prototype.start=function(){var a=this.c.m.document,b=this,c=ca(),d=new Promise(function(d,e){function f(){ca()-c>=b.f?e():a.fonts.load(t(b.a),b.h).then(function(a){1<=a.length?d():setTimeout(f,25)},function(){e()})}f()}),e=new Promise(function(a,c){setTimeout(c,b.f)});Promise.race([e,d]).then(function(){b.g(b.a)},function(){b.j(b.a)})};var ea={D:"serif",C:"sans-serif"},fa=null;I.prototype.start=function(){this.f.serif=this.j.a.offsetWidth,this.f["sans-serif"]=this.o.a.offsetWidth,this.A=ca(),L(this)};var ga=null;O.prototype.g=function(a){var b=this.a;b.g&&h(b.f,[b.a.c("wf",a.c,v(a).toString(),"active")],[b.a.c("wf",a.c,v(a).toString(),"loading"),b.a.c("wf",a.c,v(a).toString(),"inactive")]),B(b,"fontactive",a),this.o=!0,P(this)},O.prototype.h=function(a){var b=this.a;if(b.g){var c=i(b.f,b.a.c("wf",a.c,v(a).toString(),"active")),d=[],e=[b.a.c("wf",a.c,v(a).toString(),"loading")];c||d.push(b.a.c("wf",a.c,v(a).toString(),"inactive")),h(b.f,d,e)}B(b,"fontinactive",a),P(this)},Q.prototype.load=function(a){this.c=new d(this.j,a.context||this.j),this.g=!1!==a.events,this.f=!1!==a.classes,S(this,new y(this.c,a),a)},T.prototype.load=function(a){function b(){if(f["__mti_fntLst"+d]){var c,e=f["__mti_fntLst"+d](),g=[];if(e)for(var h=0;h<e.length;h++){var i=e[h].fontfamily;void 0!=e[h].fontStyle&&void 0!=e[h].fontWeight?(c=e[h].fontStyle+e[h].fontWeight,g.push(new s(i,c))):g.push(new s(i))}a(g)}else setTimeout(function(){b()},50)}var c=this,d=c.a.projectId,e=c.a.version;if(d){var f=c.c.m;m(this.c,U(c,d,e),function(e){e?a([]):(f["__MonotypeConfiguration__"+d]=function(){return c.a},b())}).id="__MonotypeAPIScript__"+d}else a([])},V.prototype.load=function(a){var b,c,d=this.a.urls||[],e=this.a.families||[],f=this.a.testStrings||{},g=new n;for(b=0,c=d.length;b<c;b++)l(this.c,d[b],o(g));var h=[];for(b=0,c=e.length;b<c;b++)if(d=e[b].split(":"),d[1])for(var i=d[1].split(","),j=0;j<i.length;j+=1)h.push(new s(d[0],i[j]));else h.push(new s(d[0]));p(g,function(){a(h,f)})};var ha="//fonts.googleapis.com/css",ia={latin:"BESbswy","latin-ext":"çöüğş",cyrillic:"йяЖ",greek:"αβΣ",khmer:"កខគ",Hanuman:"កខគ"},ja={thin:"1",extralight:"2","extra-light":"2",ultralight:"2","ultra-light":"2",light:"3",regular:"4",book:"4",medium:"5","semi-bold":"6",semibold:"6","demi-bold":"6",demibold:"6",bold:"7","extra-bold":"8",extrabold:"8","ultra-bold":"8",ultrabold:"8",black:"9",heavy:"9",l:"3",r:"4",b:"7"},ka={i:"i",italic:"i",n:"n",normal:"n"},la=/^(thin|(?:(?:extra|ultra)-?)?light|regular|book|medium|(?:(?:semi|demi|extra|ultra)-?)?bold|black|heavy|l|r|b|[1-9]00)?(n|i|normal|italic)?$/,ma={Arimo:!0,Cousine:!0,Tinos:!0};_.prototype.load=function(a){var b=new n,c=this.c,d=new W(this.a.api,j(c),this.a.text),e=this.a.families;X(d,e);var f=new Z(e);$(f),l(c,Y(d),o(b)),p(b,function(){a(f.a,f.c,ma)})},aa.prototype.load=function(a){var b=this.a.id,c=this.c.m;b?m(this.c,(this.a.api||"https://use.typekit.net")+"/"+b+".js",function(b){if(b)a([]);else if(c.Typekit&&c.Typekit.config&&c.Typekit.config.fn){b=c.Typekit.config.fn;for(var d=[],e=0;e<b.length;e+=2)for(var f=b[e],g=b[e+1],h=0;h<g.length;h++)d.push(new s(f,g[h]));try{c.Typekit.load({events:!1,classes:!1,async:!0})}catch(a){}a(d)}},2e3):a([])},ba.prototype.load=function(a){var b=this.f.id,c=this.c.m,d=this;b?(c.__webfontfontdeckmodule__||(c.__webfontfontdeckmodule__={}),c.__webfontfontdeckmodule__[b]=function(b,c){for(var e=0,f=c.fonts.length;e<f;++e){var g=c.fonts[e];d.a.push(new s(g.name,x("font-weight:"+g.weight+";font-style:"+g.style)))}a(d.a)},m(this.c,j(this.c)+(this.f.api||"//f.fontdeck.com/s/css/js/")+k(this.c)+"/"+b+".js",function(b){b&&a([])})):a([])};var na=new Q(window);na.a.c.custom=function(a,b){return new V(b,a)},na.a.c.fontdeck=function(a,b){return new ba(b,a)},na.a.c.monotype=function(a,b){return new T(b,a)},na.a.c.typekit=function(a,b){return new aa(b,a)},na.a.c.google=function(a,b){return new _(b,a)};var oa={load:c(na.load,na)};"function"==typeof define&&define.amd?define(function(){return oa}):"undefined"!=typeof module&&module.exports?module.exports=oa:(window.WebFont=oa,window.WebFontConfig&&na.load(window.WebFontConfig))}();window.Abtf=function(window){var Abtf={cnf:{},h:function(cnf,css){this.cnf=cnf,cnf.proxy&&window.Abtf.proxy_setup(cnf.proxy),this.cnf.js&&!this.cnf.js[1]&&this.js(this.cnf.js[0]);var noref=!("undefined"==typeof this.cnf.noref||!this.cnf.noref);noref||this.ref(),"undefined"!=typeof cnf.gwf&&cnf.gwf[0]&&!cnf.gwf[1]&&("a"===cnf.gwf[0]?this.async(cnf.gwf[2],"webfont"):"undefined"!=typeof WebFont&&("string"==typeof cnf.gwf[0]&&(cnf.gwf[0]=eval("("+cnf.gwf[0]+")")),WebFont.load(cnf.gwf[0])))},f:function(a){a&&this.css&&this.css(),this.cnf.js&&this.cnf.js[1]&&this.js(this.cnf.js[0]),"undefined"!=typeof this.cnf.gwf&&this.cnf.gwf[0]&&this.cnf.gwf[1]&&("a"===this.cnf.gwf[0]?this.async(this.cnf.gwf[2],"webfont"):"undefined"!=typeof WebFont&&WebFont.load(this.cnf.gwf[0]))},ready:function(a,b,c){b=document,c="addEventListener",b[c]?b[c]("DocumentContentLoaded",a):window.attachEvent("onload",a)},ref:function(){"undefined"!=typeof window.console&&console.log("\n%c100","font: 1em sans-serif; color: white; background-color: #079c2d;padding:2px;","Google PageSpeed Score optimized using https://goo.gl/C1gw96\n\nTest your website: https://pagespeed.pro/tests\n\n")},async:function(a,b){!function(c){var d=c.createElement("script");d.src=a,b&&(d.id=b),d.async=!0;var e=c.getElementsByTagName("script")[0];if(e)e.parentNode.insertBefore(d,e);else{var f=document.head||document.getElementsByTagName("head")[0];f.appendChild(d)}}(document)}},SITE_URL,BASE_URL_REGEX;return Abtf}(window);Abtf.h({"gwf":[{"google":{"families":["Open Sans:400,600,700:latin","Lato:700:latin","Lato:300,400,700,300italic,400italic,700italic:latin","Open Sans:700:latin","Ek Mukta:200,300,500,600:latin","Open Sans:600:latin","Hind:300,400,500,600,700:latin","Open Sans:300italic,400italic,700italic,800italic,800,700,400,300:latin"]}}]});</script><style type="text/css" rel="abtf" id="AbtfCSS">
+/*!
+ * Above The Fold Optimization 2.7.10 // EMPTY
+ */
+</style>
+<!-- This site is optimized with the Yoast SEO plugin v4.9 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introduction - Ionic Academy">
+<meta property="og:description" content="We’re taking a look at why you might need a maps component inside your app and what the Google Maps SDK offers right from the...">
+<meta property="og:url" content="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/">
+<meta property="og:site_name" content="Ionic Academy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="We’re taking a look at why you might need a maps component inside your app and what the Google Maps SDK offers right from the...">
+<meta name="twitter:title" content="Introduction - Ionic Academy">
+<meta name="twitter:site" content="@ionicacademy">
+<meta name="twitter:creator" content="@ionicacademy">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://secure.gravatar.com/">
+<link rel="dns-prefetch" href="https://platform-api.sharethis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ionicacademy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="mp-theme-css" href="./Introduction - Ionic Academy_files/theme.css" type="text/css" media="all">
+<link rel="stylesheet" id="ctt-css" href="./Introduction - Ionic Academy_files/ctt-module-design.css" type="text/css" media="all">
+<link rel="stylesheet" id="parent-style-css" href="./Introduction - Ionic Academy_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="child-style-css" href="./Introduction - Ionic Academy_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./Introduction - Ionic Academy_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/jquery.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/compat.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/sharethis.js"></script>
+<link rel="https://api.w.org/" href="https://ionicacademy.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ionicacademy.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ionicacademy.com/wp-includes/wlwmanifest.xml"> 
+<link rel="alternate" type="application/json+oembed" href="https://ionicacademy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fionicacademy.com%2Fcourses%2Fusing-maps-inside-your-ionic-2-app%2Fintroduction%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://ionicacademy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fionicacademy.com%2Fcourses%2Fusing-maps-inside-your-ionic-2-app%2Fintroduction%2F&amp;format=xml">
+<style type="text/css">
+#wp-admin-bar-ai-toolbar-settings .ab-icon:before {
+  content: '\f111';
+  top: 2px;
+  color: rgba(240,245,250,.6)!important;
+}
+#wp-admin-bar-ai-toolbar-settings-default .ab-icon:before {
+  top: 0px;
+}
+#wp-admin-bar-ai-toolbar-settings .ab-icon.on:before {
+  color: #00f200!important;
+}
+#wp-admin-bar-ai-toolbar-settings-default li, #wp-admin-bar-ai-toolbar-settings-default a,
+#wp-admin-bar-ai-toolbar-settings-default li:hover, #wp-admin-bar-ai-toolbar-settings-default a:hover {
+  border: 1px solid transparent;
+}
+#wp-admin-bar-ai-toolbar-blocks .ab-icon:before {
+  content: '\f135';
+}
+#wp-admin-bar-ai-toolbar-positions .ab-icon:before {
+  content: '\f207';
+}
+#wp-admin-bar-ai-toolbar-positions-default .ab-icon:before {
+  content: '\f522';
+}
+#wp-admin-bar-ai-toolbar-tags .ab-icon:before {
+  content: '\f475';
+}
+#wp-admin-bar-ai-toolbar-no-insertion .ab-icon:before {
+  content: '\f214';
+}
+#wp-admin-bar-ai-toolbar-processing .ab-icon:before {
+  content: '\f464';
+}
+#wp-admin-bar-ai-toolbar-positions span.up-icon {
+  padding-top: 2px;
+}
+#wp-admin-bar-ai-toolbar-positions .up-icon:before {
+  font: 400 20px/1 dashicons;
+}
+</style>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '618910268300431'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript>&lt;img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=618910268300431&amp;ev=PageView&amp;noscript=1"
+/&gt;</noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code --><script data-cfasync="false" src="./Introduction - Ionic Academy_files/saved_resource" data-sumo-platform="wordpress" data-sumo-site-id="1839710098a54700d50ab8009b4a87009037fd005254ef00abf02800765add00" async=""></script>
+<link rel="dns-prefetch" href="https://v0.wordpress.com/">
+<link rel="dns-prefetch" href="https://i0.wp.com/">
+<link rel="dns-prefetch" href="https://i1.wp.com/">
+<link rel="dns-prefetch" href="https://i2.wp.com/">
+<style type="text/css">img#wpstats{display:none}</style><meta name="description" content="We&#39;re taking a look at why you might need a maps component inside your app and what the Google Maps SDK offers right from the start.">
+<link rel="icon" href="https://i2.wp.com/ionicacademy.com/wp-content/uploads/2017/06/cropped-site-icon.png?fit=32%2C32&amp;ssl=1" sizes="32x32">
+<link rel="icon" href="https://i2.wp.com/ionicacademy.com/wp-content/uploads/2017/06/cropped-site-icon.png?fit=192%2C192&amp;ssl=1" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://i2.wp.com/ionicacademy.com/wp-content/uploads/2017/06/cropped-site-icon.png?fit=180%2C180&amp;ssl=1">
+<meta name="msapplication-TileImage" content="https://i2.wp.com/ionicacademy.com/wp-content/uploads/2017/06/cropped-site-icon.png?fit=270%2C270&amp;ssl=1">
+			<style type="text/css" id="wp-custom-css">
+				/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+.highlight_box_ad {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffde;
+    border: 3px dashed #E4BE79;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+}
+.highlight_box_ad h2 {
+    font-size: 42px!important;
+    color: #E4BE79!important;
+    text-transform: uppercase;
+}			</style>
+		<script type="text/javascript">
+/* <![CDATA[ */
+	var wpNotesIsJetpackClient = true;
+	var wpNotesIsJetpackClientV2 = true;
+	var wpNotesLinkAccountsURL = 'https://ionicacademy.com/wp-admin/admin.php?page=jetpack';
+/* ]]> */
+</script>
+
+	<link rel="stylesheet" href="./Introduction - Ionic Academy_files/style(2).css">
+
+	    <style>
+    .blue{color:#002738}.orange{color:}.green{color:#385f8e}.yellow{color:}h1.page-title{color:#002738}h1.page-title a{color:#002738}h1.page-title a:hover{color:#385f8e}h2.page-title{background-color:#385f8e;}a{color:#385f8e}a:hover{color:}.bigbutton,.button,a.atcb-link,a.button{background:#53d2e6;color:#fff;}.bigbutton:hover,.button:hover,a.atcb-link:hover,a.button:hover{background:#385f8e}.bigbutton.inactive,.button.inactive,a.atcb-link.inactive,a.button.inactive{background-color:}.bigbutton.button-orange,.button.button-orange,a.atcb-link.button-orange,a.button.button-orange{background-color:#53d2e6}.bigbutton.button-orange:hover,.button.button-orange:hover,a.atcb-link.button-orange:hover,a.button.button-orange:hover{background-color:#385f8e}#header{background-color:#002738;}#header .user_profile nav.member_menu{background:#385f8e}#header .user_profile nav.member_menu ul li a:hover{background-color:}#nav_main{background-color:#385f8e}#nav_main ul li:hover a{color:}#nav_main ul ul{background:#002738}#nav_main ul ul li:hover{background-color:}#nav_main ul#menu-main-menu>li.current-menu-item>a,#nav_main ul#menu-main-menu>li.highlight>a{background-color:#53d2e6;}#nav_main ul#menu-main-menu>li.current-menu-item>a:hover,#nav_main ul#menu-main-menu>li.highlight>a:hover{background-color:#53d2e6}#nav_main ul#menu-main-menu>li.highlight_alt a{color:#385f8e}ol.commentlist li div.comment-meta a{color:#385f8e}nav#lesson_categories ul li a{color:#002738;}nav#lesson_categories ul li a:hover{background-color:}nav#lesson_categories ul li a.active{background-color:#385f8e;}nav#lesson_categories ul li.view_all a{background-color:#002738;}nav#lesson_categories ul li.view_all a.active{background-color:#385f8e}nav#lesson_categories ul li.view_all a:hover{color:}.course-listing .course-thumb .coming-soon-overlay .coming-soon-message{background-color:;}.course-listing .course-content h4 a{color:#002738}.course-listing.training_listing.listing_history .course-thumb span.viewed_time{background-color:}.course-listing.training_listing.listing_history h6{color:#385f8e}.course-listing.training_listing.listing_history h6 a{color:#385f8e}#lesson_list li:hover{color:#385f8e}.article.article-listing{border-bottom:1px solid #002738}.article h1.article_title{color:#002738}.article h1.article_title a{color:#002738}.article h1.article_title a:hover{color:#385f8e}#course_lesson_box ul.course_lesson_list li a{color:#002738}#course_lesson_box ul.course_lesson_list li a:hover{background-color:}#course_lesson_box ul.course_lesson_list li.active{background-color:;}#course_lesson_box h1{background-color:#002738}#footer{background-color:#002738;}.button.addthisevent-drop{background-color:#385f8e!important;}.dashboard_account .user_account .user_details h1{color:#385f8e}.dashboard_account ul.user_account_links li a{background-color:#002738}.dashboard_account ul.user_account_links li a:hover{background-color:#385f8e}.dashboard .dashboard_sections .section_block h1 a{color:#002738}.dashboard .dashboard_sections .section_block h1 a:hover{color:}.dashboard .dashboard_bottom .section_title{border-bottom:1px solid #002738}.dashboard .dashboard_bottom .section_title.title_orange{border-color:}.dashboard .dashboard_bottom .section_title.title_blue{border-color:#385f8e}.dashboard .dashboard_bottom .section_title.title_yellow{border-color:}.dashboard .dashboard_bottom .section_title.title_green{border-color:#385f8e}.dashboard .dashboard_bottom .recent_content .content_details h1 a{color:#002738}.dashboard .dashboard_bottom .recent_content .content_details h1 a:hover{color:#385f8e}.sidebar aside h3 a{color:#002738}.sidebar aside h3 a:hover{color:}.nav-links .nav-next a,.nav-links .nav-previous a{background-color:}.gforms_confirmation_message{border-bottom:8px solid #385f8e}.highlight{border:3px solid ;}.highlight.highlight_orange{border-color:;}.highlight.highlight_blue{border-color:#002738;}.highlight.highlight_green{border-color:#385f8e;}.highlight a:hover{text-decoration:underline}form input[type=submit]{background:;}form input[type=submit]:hover{background:#002738}form input[type=submit].inactive{background-color:}form input[type=submit].button-orange{background-color:}form input[type=submit].button-orange:hover{background-color:#385f8e}.mp_wrapper table th,.mp_wrapper table thead{background-color:#385f8e;border:1px solid #002738;text-shadow:1px 1px 0 #002738;border-bottom:3px solid #002738}.mepr-login-actions a[href$='action=newpassword'],.mepr-login-actions a[href$='action=forgot_password'],.mp_wrapper a[href$='action=newpassword'],.mp_wrapper a[href$='action=forgot_password']{background:;}.mepr-login-actions a[href$='action=newpassword']:hover,.mepr-login-actions a[href$='action=forgot_password']:hover,.mp_wrapper a[href$='action=newpassword']:hover,.mp_wrapper a[href$='action=forgot_password']:hover{background:#002738}.mepr-login-actions a[href$='action=newpassword'].inactive,.mepr-login-actions a[href$='action=forgot_password'].inactive,.mp_wrapper a[href$='action=newpassword'].inactive,.mp_wrapper a[href$='action=forgot_password'].inactive{background-color:}.mepr-login-actions a[href$='action=newpassword'].button-orange,.mepr-login-actions a[href$='action=forgot_password'].button-orange,.mp_wrapper a[href$='action=newpassword'].button-orange,.mp_wrapper a[href$='action=forgot_password'].button-orange{background-color:}.mepr-login-actions a[href$='action=newpassword'].button-orange:hover,.mepr-login-actions a[href$='action=forgot_password'].button-orange:hover,.mp_wrapper a[href$='action=newpassword'].button-orange:hover,.mp_wrapper a[href$='action=forgot_password'].button-orange:hover{background-color:#385f8e}#mepr-member-account-wrapper input[type=submit],#mepr_loginform input[type=submit],.mepr-signup-form input[type=submit],.mp_wrapper form input[type=submit]{background:;}#mepr-member-account-wrapper input[type=submit]:hover,#mepr_loginform input[type=submit]:hover,.mepr-signup-form input[type=submit]:hover,.mp_wrapper form input[type=submit]:hover{background:#002738}#mepr-member-account-wrapper input[type=submit].inactive,#mepr_loginform input[type=submit].inactive,.mepr-signup-form input[type=submit].inactive,.mp_wrapper form input[type=submit].inactive{background-color:}#mepr-member-account-wrapper input[type=submit].button-orange,#mepr_loginform input[type=submit].button-orange,.mepr-signup-form input[type=submit].button-orange,.mp_wrapper form input[type=submit].button-orange{background-color:}#mepr-member-account-wrapper input[type=submit].button-orange:hover,#mepr_loginform input[type=submit].button-orange:hover,.mepr-signup-form input[type=submit].button-orange:hover,.mp_wrapper form input[type=submit].button-orange:hover{background-color:#385f8e}#mepr_loginform .mepr_price_cell,.mepr-signup-form .mepr_price_cell{color:#002738}#mepr-member-account-wrapper #mepr-account-nav span.mepr-active-nav-tab a,.mp_wrapper #mepr-account-nav span.mepr-active-nav-tab a{background-color:;}.gform_wrapper form input[type=submit]{background:;}.gform_wrapper form input[type=submit]:hover{background:#002738}.gform_wrapper form input[type=submit].inactive{background-color:}.gform_wrapper form input[type=submit].button-orange{background-color:}.gform_wrapper form input[type=submit].button-orange:hover{background-color:#385f8e}.mobile-nav{background-color:#002738}#buddypress .comment-reply-link,#buddypress .generic-button a,#buddypress a.button,#buddypress button,#buddypress input[type=button],#buddypress input[type=reset],#buddypress input[type=submit],#buddypress ul.button-nav li a,a.bp-title-button{background:;}#buddypress .comment-reply-link:hover,#buddypress .generic-button a:hover,#buddypress a.button:hover,#buddypress button:hover,#buddypress input[type=button]:hover,#buddypress input[type=reset]:hover,#buddypress input[type=submit]:hover,#buddypress ul.button-nav li a:hover,a.bp-title-button:hover{background:#002738}#buddypress .comment-reply-link.inactive,#buddypress .generic-button a.inactive,#buddypress a.button.inactive,#buddypress button.inactive,#buddypress input[type=button].inactive,#buddypress input[type=reset].inactive,#buddypress input[type=submit].inactive,#buddypress ul.button-nav li a.inactive,a.bp-title-button.inactive{background-color:}#buddypress .comment-reply-link.button-orange,#buddypress .generic-button a.button-orange,#buddypress a.button.button-orange,#buddypress button.button-orange,#buddypress input[type=button].button-orange,#buddypress input[type=reset].button-orange,#buddypress input[type=submit].button-orange,#buddypress ul.button-nav li a.button-orange,a.bp-title-button.button-orange{background-color:}#buddypress .comment-reply-link.button-orange:hover,#buddypress .generic-button a.button-orange:hover,#buddypress a.button.button-orange:hover,#buddypress button.button-orange:hover,#buddypress input[type=button].button-orange:hover,#buddypress input[type=reset].button-orange:hover,#buddypress input[type=submit].button-orange:hover,#buddypress ul.button-nav li a.button-orange:hover,a.bp-title-button.button-orange:hover{background-color:#385f8e}.course-listing .course_completion{background-color:;}.course-listing .course_completion.completed{background-color:#002738}.lesson_downloads h2 {background-color: #002738;}.lesson_downloads .download_links a span.download_type {background-color: ; }.lesson_downloads .download_links a:hover {color:;}
+        #course_lesson_box.course_downloads .download_type {color: #385f8e;}#course_lesson_box ul.course_lesson_list li ul.sub-menu li a:hover {background-color: ;}#course_lesson_box ul.course_lesson_list li.menu-item-has-children > a {background-color: #385f8e;}
+    </style>
+
+
+		    <iframe id="sumome-jquery-iframe" style="display: none;" src="./Introduction - Ionic Academy_files/saved_resource.html"></iframe><script defer="" src="./Introduction - Ionic Academy_files/jquery.fitvids.min.js"></script>
+	    <script>
+			jQuery(document).ready(function(){
+			    jQuery(".lesson_video").fitVids();
+			    jQuery(".lesson_content").fitVids();
+					jQuery( "div.user_profile" ).click(function() {
+				  jQuery( this ).toggleClass( "member_menu_active" );
+				});
+			});
+		</script>
+
+		
+	
+	
+	<style>.sidebar aside {
+    border: 2px solid #7480a2;
+}
+.special-header-signup-link {
+color: rgb(44, 143, 244);
+font-size: large;
+}
+.special-header-signup-link:hover {
+    text-decoration: underline;
+}
+.special-header-link {
+color: #fff;
+font-size: large;
+}
+.special-header-link:hover {
+    text-decoration: underline;
+}</style>
+    
+
+			<script>
+           jQuery(document).ready(function(){
+                 jQuery("ul.course_lesson_list ul.sub-menu").hide();
+                 jQuery("ul.course_lesson_list li.menu-item-has-children > a").removeAttr("href");
+                 jQuery("ul.course_lesson_list li.menu-item-has-children.current-menu-parent .sub-menu").show();
+                 jQuery("ul.course_lesson_list li.menu-item-has-children.current-menu-parent > a").addClass("expanded");
+                 jQuery("ul.course_lesson_list li.menu-item-has-children > a").click(function () {
+	                 jQuery(this).next("ul.course_lesson_list li.menu-item-has-children .sub-menu").slideToggle(250);
+	                 jQuery(this).toggleClass("expanded");
+	             });
+          });
+        </script>
+
+
+
+<script async="" type="text/javascript" src="./Introduction - Ionic Academy_files/count.js"></script><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="./Introduction - Ionic Academy_files/hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="./Introduction - Ionic Academy_files/services.css"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="9e8a4d2a-6f8c-415e-851b-bdfe4c01d5c1/service" src="./Introduction - Ionic Academy_files/service.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="2c40add5-3570-45d7-8212-8fc2942f7f74/service" src="./Introduction - Ionic Academy_files/service(1).js"></script><style>@-webkit-keyframes insQ_100 {  from {  outline: 1px solid transparent  } to {  outline: 0px solid transparent }  }
+#menufication-top { animation-duration: 0.001s; animation-name: insQ_100; -webkit-animation-duration: 0.001s; -webkit-animation-name: insQ_100;  } </style><link type="text/css" rel="stylesheet" href="./Introduction - Ionic Academy_files/sumome-share-client.css"></head>
+
+<body class="memberoni_course-template-default single single-memberoni_course postid-645 logged-in" data-gr-c-s-loaded="true" style="">
+
+	
+	<header id="header">
+		<div class="inner clearfix">
+						
+		<h1><a href="https://ionicacademy.com/" title="Ionic Academy" rel="home" style="background-image:url(https://ionicacademy.com/wp-content/uploads/2017/01/ionic-academy-logo.png);">Ionic Academy</a></h1>
+		
+
+		
+				<div class="user_profile col-third fr">
+					
+					<div class="user_avatar" style="border-radius:50%;overflow:hidden;">
+					     <img alt="" src="./Introduction - Ionic Academy_files/e4ef819af8ec011ba9d9038715a3ef92" srcset="https://secure.gravatar.com/avatar/e4ef819af8ec011ba9d9038715a3ef92?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo grav-hashed grav-hijack" height="40" width="40" originals="40" src-orig="https://secure.gravatar.com/avatar/e4ef819af8ec011ba9d9038715a3ef92?s=40&amp;d=mm&amp;r=g" scale="2" id="grav-e4ef819af8ec011ba9d9038715a3ef92-0">					</div>
+					<div class="user_name">David Siers</div>
+
+				
+					<nav class="member_menu">
+
+						<ul id="menu-member-menu" class="menu">
+
+					<li></li><li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://ionicacademy.com/account/">Account</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://ionicacademy.com/my-content/">My Content</a></li>
+<li id="menu-item-1753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1753"><a href="https://ionicacademy.com/affiliate-dashboard/">Affiliate Area</a></li>
+
+		                
+		                <li><a href="https://ionicacademy.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fwww.ionicacademy.com&amp;_wpnonce=b2c1437e58">Log Out</a></li>
+		            		            </ul>
+
+		                </nav>
+
+				</div>
+
+				
+		</div>
+	</header>	
+
+            <nav id="nav_main">
+			<div class="menu-member-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://ionicacademy.com/dashboard/">Dashboard</a></li>
+<li id="menu-item-1990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><a href="https://ionicacademy.com/roadmap/">Roadmap</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://ionicacademy.com/course-library/">Courses</a></li>
+<li id="menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1991"><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/#">Hands On</a>
+<ul class="sub-menu">
+	<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="https://ionicacademy.com/projects/">Projects</a></li>
+	<li id="menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1851"><a href="https://ionicacademy.com/challenges/">Challenges</a></li>
+	<li id="menu-item-1224" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1224"><a href="https://ionicacademy.com/quick-wins/">Quick Wins</a></li>
+</ul>
+</li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://ionicacademy.com/resources/">Resources</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191"><a href="http://ionicacademy.com/community">Community</a></li>
+</ul></div>     
+            <div class="cb"></div>
+
+            </nav>   
+
+			<nav class="mobile-nav col-full">
+	            <select onchange="window.location.href=this.options[this.selectedIndex].value">
+	            	<option>--- Select a section ---</option>
+				 <option value="https://ionicacademy.com/dashboard/">Dashboard</option>
+<option value="https://ionicacademy.com/roadmap/">Roadmap</option>
+<option value="https://ionicacademy.com/course-library/">Courses</option>
+<option value="#">Hands On</option><option value="https://ionicacademy.com/projects/">‐‐‐‐Projects</option>
+<option value="https://ionicacademy.com/challenges/">‐‐‐‐Challenges</option>
+<option value="https://ionicacademy.com/quick-wins/">‐‐‐‐Quick Wins</option>
+
+<option value="https://ionicacademy.com/resources/">Resources</option>
+<option value="http://ionicacademy.com/community">Community</option>
+				</select>
+			</nav>
+
+
+
+
+
+
+
+	<header class="page_title">
+		<div class="inner">
+			<h1>Introduction</h1>
+			<p class="course_byline"><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/">Using Maps Inside your Ionic App</a></p>		</div>
+	</header>
+
+
+					 
+
+
+
+	
+
+    <!-- Main Content -->
+
+<section id="content" class="inner oh">
+
+ 
+   <section id="content_main">
+
+	
+		
+			<article class="lesson_content col-twothird fl">
+
+		
+				<div class="inner lesson_video"><div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="./Introduction - Ionic Academy_files/207818452.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid415251"></iframe></div>
+</div>
+
+					
+				
+			    			        <p class="post_tools">
+
+			            			                <a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/?t=c" title="Mark as Complete"><i class="fa fa-check-circle"></i></a>
+			            
+			            			                <a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/?t=b" title="Bookmark this lesson"><i class="fa fa-bookmark"></i></a>
+			            
+			            			                <a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/introduction/?t=f" title="Add to favorites"><i class="fa fa-star"></i></a>
+			            
+			        </p>
+
+			    
+				<div class="code-block code-block-1" style="margin: 8px auto; text-align: center;">
+</div>
+<p>We’re taking a look at why you might need a maps component inside your app and what the Google Maps SDK offers right from the start.</p><div class="code-block code-block-2" style="margin: 8px 0;">
+</div>
+
+
+					<div class="cb"></div>
+
+					
+				<nav class="lesson_nav oh mt20">
+
+					<a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/showing-a-google-map/" class="fr button next_lesson">Next Lesson</a>
+				</nav>
+
+			
+
+			</article>
+
+
+	        
+
+		<div class="course_sidebar col-third fl">
+						<section id="course_lesson_box">
+
+
+				
+				<h1>Lessons in this Course:</h1>
+
+				
+				<ul class="course_lesson_list"><li class="active">Introduction</li><li><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/showing-a-google-map/">Showing a Google Map</a></li><li><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/adding-marker/">Adding Marker</a></li><li><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/showing-marker-information/">Showing Marker Information</a></li><li><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/focusing-the-map/">Focusing the Map</a></li><li><a href="https://ionicacademy.com/courses/using-maps-inside-your-ionic-2-app/hands-on/">Hands On</a></li></ul>
+			</section>
+
+		
+
+					
+				
+				
+
+				
+
+		</div>
+				
+	</section>
+
+
+
+</section>
+
+ <footer id="footer">
+      <div class="inner oh">
+        <div class="footer_credit fl">
+                    <p>© Ionic Academy - 2017</p>
+                </div>
+        <nav class="footer_nav fr">
+        <div class="menu-bottom-menu-container"><ul id="menu-bottom-menu" class="menu"><li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://ionicacademy.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://ionicacademy.com/privacy/">Privacy</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://ionicacademy.com/contact/">Support</a></li>
+</ul></div>        </nav>
+      </div>
+    </footer>
+  
+
+	<div id="tve_notification_box"></div>	<div style="display:none">
+	<div class="grofile-hash-map-e4ef819af8ec011ba9d9038715a3ef92">
+	</div>
+	</div>
+<script>
+    jQuery(document).ready(function () {
+		jQuery.post('https://ionicacademy.com?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+			var F = new Function ( response );
+			return( F() );
+		});
+    });
+</script><link rel="stylesheet" id="wpcom-notes-admin-bar-css" href="./Introduction - Ionic Academy_files/admin-bar-v2.css" type="text/css" media="all">
+<link rel="stylesheet" id="noticons-css" href="./Introduction - Ionic Academy_files/noticons.css" type="text/css" media="all">
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/photon.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/ctt-script.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":"e4ef819af8ec011ba9d9038715a3ef92"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/wpgroho.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var tve_dash_front = {"ajaxurl":"https:\/\/ionicacademy.com\/wp-admin\/admin-ajax.php","is_crawler":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/frontend.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/q2w3-fixed-widget.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/wp-embed.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/underscore.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/backbone.min.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/mustache.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/notes-common-v2.js"></script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/admin-bar-v2.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"ionic-academy"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Introduction - Ionic Academy_files/count(1).js"></script>
+
+  
+	
+
+
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Minified using disk
+
+ Served from: ionicacademy.com @ 2017-08-21 06:54:58 by W3 Total Cache --><a href="javascript:void(0);" title="Sumo" style="background-color: rgb(0, 115, 183); border-radius: 3px 0px 0px 3px; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px; position: fixed; z-index: 2147483647; padding: 0px; width: 44px; height: 40px; text-indent: -10000px; opacity: 1; display: block !important; top: 40px; right: -40px;"><span style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; margin-left: 4px; margin-right: 0px; border-radius: 3px 0px 0px 3px;">Sumo</span><span style="display: block; width: 40px; height: 40px; background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxZDQ2MjI4YS03NWY2LTRkZTQtOGJjYy1hODc1NjRkMjYxYTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDQ3MUVFMDFFMjVDMTFFNjlFQjhBRjdGODU5MDJBMDUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDQ3MUVFMDBFMjVDMTFFNjlFQjhBRjdGODU5MDJBMDUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxZDQ2MjI4YS03NWY2LTRkZTQtOGJjYy1hODc1NjRkMjYxYTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MWQ0NjIyOGEtNzVmNi00ZGU0LThiY2MtYTg3NTY0ZDI2MWE1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+8JtvywAAAKhQTFRFzOPxSJvLA3W4Mo7FBna5w97u8vj7EHy8a67VhbzdsdTpVaLPh73d9/v9C3m6QZfJbq/WXKbR3u32JIfB3ez1KorDir/eBHW4+/3+rtPoZarUG4K/LIvDDnu7ocvkf7nbdrTY9fr8E328WKPQO5PITJ3MPpXJstXptdbq+Pv9cbHXaq3VU6HOkMLgnMnjDHq62uv1/P3+6/T53Oz1cLDX/f7+AHO3////ptOZ5QAAADh0Uk5T/////////////////////////////////////////////////////////////////////////wA7XBHKAAAAmUlEQVR42sSRRxLCMAxFRSq9907ovebr/jdDMWYGxmZL3sIqbyFbJv4B/VlkVlerKALTD3G46Mx3AOR1UZ/TsDxW6W0gfYRNVfTCFu2AWpAMgMItMW+zQJU2UjWI29D0+e5KWNPMk+A9Om+B/UgOJyCuwMJCrpuziYkIsglfRByZ/XM3eXnBFEu1kpMpjq9dxQYp/OAXTwEGAB7Rc1xVnPemAAAAAElFTkSuQmCC&quot;) 8px 8px no-repeat white; margin-left: 4px; border-radius: 3px 0px 0px 3px; margin-right: 0px;"></span></a></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
